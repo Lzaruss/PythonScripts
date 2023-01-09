@@ -27,18 +27,14 @@ leetLanguage = {
     'Z':['z']
 }
 
-array = []
-
 def leetTranslate(string: str) -> str:
     result = ''
 
     for letter in string:
         if letter.upper() in leetLanguage:
             result += leetLanguage[letter.upper()][0]
-            array.append(leetLanguage[letter.upper()][0])
         else:
             result += letter
-            array.append(letter)
     return result
 
 print(leetTranslate('Escribe un programa que reciba un texto y transforme lenguaje natural a "lenguaje hacker"'))
