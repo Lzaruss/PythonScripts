@@ -4,9 +4,9 @@ This repository contains a collection of Python scripts that serve various purpo
 
 ## Contents
 
-1. `password_generator.py`: This script generates a random password of a specified length.
-2. `leet_converter.py`: This script converts natural language text into "leet" or 1337 speak.
-3. `txt_to_json.py`: This script converts a .txt file into a JSON file.
+1. `passwdGen.py`: This script generates a random password of a specified length.
+2. `leetTranslate.py`: This script converts natural language text into "leet" or 1337 speak.
+3. `convert-TXT-to-JSON.py`: This script converts a .txt file into a JSON file.
 
 ## Usage
 
@@ -17,14 +17,10 @@ For example, to use the password generator script, open a terminal and enter the
 ```
 git clone https://github.com/Lzaruss/PythonScripts.git
 cd python_scripts
-python password_generator.py
+python passwdGen.py -f temp.txt -c 1000 -l 8
 ```
-
+This example returns 1000 passwords with a length of 8 characters and will be stored in the temp.txt file (if it does not exist, it will create it).
 
 You may need to specify additional arguments or input when running the scripts. Refer to the comments within each script for more information on their usage.
 
-## Contributions
 
-If you would like to contribute to this repository, please submit a pull request with your proposed changes. All contributions are welcome and appreciated. Please make sure to follow the coding style and conventions used in the existing scripts, and ensure that your code is thoroughly tested before submitting it.
-
-Thank you for considering contributing to this repository!
