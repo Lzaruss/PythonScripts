@@ -7,6 +7,7 @@ This repository contains a collection of Python scripts that serve various purpo
 1. `passwdGen.py`: This script generates a random password of a specified length.
 2. `leetTranslate.py`: This script converts natural language text into "leet" or 1337 speak.
 3. `convert-TXT-to-JSON.py`: This script converts a .txt file into a JSON file.
+4. `extractEmail.py`: This script find all emails in a url
 
 ## Usage
 
